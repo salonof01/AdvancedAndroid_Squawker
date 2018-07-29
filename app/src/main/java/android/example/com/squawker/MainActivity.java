@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity implements
         if (extras != null && extras.containsKey("test")) {
             // If the key is there, print out the value of "test"
             Log.d(LOG_TAG, "Contains: " + extras.getString("test"));
+        }else{
+            Log.d(LOG_TAG, "Prueba: " );
         }
 
     }
