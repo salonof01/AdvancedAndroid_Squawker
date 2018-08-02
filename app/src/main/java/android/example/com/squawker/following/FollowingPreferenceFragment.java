@@ -29,8 +29,9 @@ import com.google.firebase.messaging.FirebaseMessaging;
 /**
  * Shows the list of instructors you can follow
  */
+// TODO (1) Implement onSharedPreferenceChangeListener
 public class FollowingPreferenceFragment extends PreferenceFragmentCompat implements
-        SharedPreferences.OnSharedPreferenceChangeListener {
+        SharedPreferences.OnSharedPreferenceChangeListener  {
 
     private final static String LOG_TAG = FollowingPreferenceFragment.class.getSimpleName();
 
